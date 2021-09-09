@@ -22,4 +22,5 @@ cc_library(
   deps = [
     ':libz_make',
   ],
+  visibility = ["//visibility:public"],
 )
